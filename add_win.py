@@ -1033,7 +1033,7 @@ class AddWin:
 		p2_box = ttk.Combobox(trio_win)
 		p3 = ttk.Label(trio_win, text="p3")
 		p3_box = ttk.Combobox(trio_win)
-		p1 = ttk.Label(trio_win, text="p1by")
+		p1 = ttk.Label(trio_win, text="p1")
 		p1_box = ttk.Combobox(trio_win)
 		selecting = tk.PhotoImage(master=trio_win, file="./mons/default.png")
 		p2_mon_img_label = ttk.Label(trio_win, image=selecting)
